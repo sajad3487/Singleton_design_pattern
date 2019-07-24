@@ -9,7 +9,6 @@ class DatabaseConfig extends SingletonConfig {
     private $configData;
 
     protected function loadConfig() {
-        // Load database configuration data from file, database, etc.
         $this->configData = [
             'db_host' => 'localhost',
             'db_user' => 'root',

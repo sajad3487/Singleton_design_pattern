@@ -9,7 +9,6 @@ class AppConfig extends SingletonConfig {
     private $configData;
 
     protected function loadConfig() {
-        // Load application configuration data from file, database, etc.
         $this->configData = [
             'app_name' => 'My App',
             'debug_mode' => true,
